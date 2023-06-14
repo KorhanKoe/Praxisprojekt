@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tveds - Digital Agency</title>
+
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="Hauptseite.html">           <!-- bild einfügen als logo-->
+            <img 
+            src="/Users/korhan/Desktop/Praxisprojekt/html/Image/tveds.ico" 
+            alt="Logo tveds.com"/>
+        </a>   
+
+     
+           
+    </nav>
+
+    <h1>Formulare</h1>
+
+    <form id="myform" action="login.php" methode="get">
+
+        <label for="text_id">Input</label>
+        <input type="text" id="text_id" name="input">
+
+        <br>
+        <input type="submit">
+
+        <a href="#" onclick="document.getElementById('myform').submit()">Link</a>
+    </form>
+</body>
+</html>
