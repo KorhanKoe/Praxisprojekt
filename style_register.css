@@ -1,0 +1,715 @@
+:root{
+    --background-color: white;                
+    --darker-background-color: #b1e2f0;
+    --accent-color: #21CAFF;
+    --text-color: rgb(0, 0, 0);
+    --navbar-height: 80px;
+}
+
+
+body{
+    border-top: 40px solid rgb(111, 193, 248);
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+        color: var(--text-color);
+}
+
+
+html{                               
+    height: 100%;
+}
+
+#logos{
+    position:relative;
+    left:83px;
+    bottom:51px;
+    font-size: 23px;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.btn2{
+    text-align: center;
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:-75px;
+    left:70%;
+    width: 100px;
+    bottom:-100px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: var(--accent-color);
+    border: none;
+    text-align: left;
+    outline:none;
+} 
+
+.btn2:hover{
+    background-color: #17bbec;
+    padding-right: 1px;
+}
+
+#hrf1{
+    text-decoration: none;
+}
+
+.headertxt{
+    width: 50%;
+    font-size: 30px;
+    margin-left:20px;
+    
+}
+.hdrbeschr{
+    display: block;
+    margin-left:5px;
+}
+#txt1{
+    line-height: 45px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#b{
+    font-size: 25px;
+    position:relative;
+    top:10px;
+    margin-right:2px;
+}
+.wrapper{
+    position:relative;
+    display: inline-block;
+    text-align: right;
+    top:20px;
+}
+
+#vorname{
+    position: relative;
+    float:left;
+    left:24px;
+    bottom:5px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+ #ip1{
+    justify-content: flex-end;
+    position: relative;
+    display:block;
+    outline:none;
+    right:58px;
+    top:40px;
+    width: 300px;
+    height: 55px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    font-size: 17px;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+#ip1:focus{
+    outline: none;
+    border-bottom: 3px solid #21CAFF;;
+}
+
+#ip1:focus::placeholder{
+    opacity:.3;
+}
+
+#nachname{
+    position:relative;
+    float:left;
+    left:24px;
+    top:38px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+#ip2{
+    position:relative;
+    display:block;
+    right:73px;
+    top:83px;
+    width: 300px;
+    height: 55px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    font-size: 17px;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+#ip2:focus{
+    outline: none;
+    border-bottom: 3px solid #21CAFF;
+}
+
+#ip2:focus::placeholder{
+    opacity:.3;
+}
+
+
+#email{
+    position:relative;
+    float:left;
+    left:24px;
+    top:85px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+#ip3{
+    position:relative;
+    display:block;
+    right:35px;
+    top:130px;
+    width: 300px;
+    height: 55px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline:none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+    font-size: 17px;
+}
+
+#ip3::placeholder{
+    font-size: 17px;
+}
+#ip3:focus{
+    outline: none;
+    border-bottom: 3px solid #21CAFF;
+
+}
+
+#ip3:focus::placeholder{
+    opacity:.3;
+}
+#story{
+    position:relative;
+    float:left;
+    left:24px;
+    top:140px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.inputbox4{
+    text-align: left;
+}
+
+#ip4{
+    position:relative;
+    display:block;
+    left:18px;
+    top:145px;
+    width: 350px;
+    height: 155px;
+    background-color: #f6f6f6;
+    border: none;
+    outline:none;
+    outline: none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    font-size: 17px;
+    text-align: left;
+    border-collapse: none;
+    resize: none;
+    padding:20px 0;
+    padding-left:5px;
+    padding-right: 5px;
+    border-radius:25px;
+    
+}
+
+
+#ip4::placeholder{
+    position:relative;
+    font-size: 17px;
+    text-align: left;
+}
+#ip4:focus{
+    outline: none;
+    border-bottom: 3px solid #21CAFF;
+}
+
+
+#ip4:focus::placeholder{
+    opacity:.3;
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:140px;
+    float:left;
+    width: 100px;
+    bottom:30px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: #21CAFF;
+    border: none;
+    outline: none;
+    text-align: left;
+} 
+
+.btn:hover{
+    background-color: #17bbec;
+    padding-right: 1px;
+}
+
+#bot{
+    position:relative;
+    border-bottom: 40px solid rgb(111, 193, 248);
+    top:185px;
+    right:8px;
+}
+
+
+@media only screen and (max-height: 800px) {
+    body{
+        border-bottom:none;  
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+
+    .headertxt{
+        width: 50%;
+        font-size: 30px;
+        margin-left:20px;
+        
+    }
+    #vorname{
+        position: relative;
+        float:left;
+        left:24px;
+        bottom:5px;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+    }
+     #ip1{
+        justify-content: flex-end;
+        position: relative;
+        display:block;
+        outline:none;
+        right:60px;
+        top:40px;
+        width: 175px;
+        height: 55px;
+        background-color: #f6f6f6;
+        border: none;
+        border-bottom: 2px solid #d9d9d9;
+        font-size: 17px;
+        border-top:1px solid rgb(150, 150, 150);
+        border-left:1px solid rgb(150, 150, 150);
+        border-right:1px solid rgb(150, 150, 150);
+        border-bottom: 1px solid rgb(150, 150, 150);
+        border-radius:35px;
+    }
+    
+    #nachname{
+        position:relative;
+        float:left;
+        left: 300px;
+        top:-64px;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+    
+    
+    }
+    #ip2{
+        position:relative;
+        display:block;
+        right:-196px;
+        top:-20px;
+        width: 175px;
+        height: 55px;
+        background-color: #f6f6f6;
+        border: none;
+        border-bottom: 2px solid #d9d9d9;
+        font-size: 17px;
+        border-top:1px solid rgb(150, 150, 150);
+        border-left:1px solid rgb(150, 150, 150);
+        border-right:1px solid rgb(150, 150, 150);
+        border-bottom: 1px solid rgb(150, 150, 150);
+        border-radius:35px;
+    }
+
+    
+#email{
+    position:relative;
+    float:left;
+    left:24px;
+    top:23px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+#ip3{
+    position:relative;
+    display:block;
+    right:42px;
+    top:70px;
+    width: 300px;
+    height: 55px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline:none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+#story{
+    position:relative;
+    float:left;
+    left:24px;
+    top:105px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#ip4{
+    position:relative;
+    display:block;
+    left:18px;
+    top:115px;
+    width: 510px;
+    height: 155px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline:none;
+    outline: none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+.btn{
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:140px;
+    float:left;
+    width: 100px;
+    bottom:30px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: #21CAFF;
+    border: none;
+    outline: none;
+} 
+.btn2{
+    text-align: center;
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:-75px;
+    left:80%;
+    width: 100px;
+    bottom:30px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: var(--accent-color);
+    border: none;
+    text-align: left;
+    outline:none;
+} 
+
+.dropdown li{
+    height: 70px;
+    width: 70%;    
+}
+
+.dropdown li a{
+    justify-content: flex-start;
+    padding-left: 30px;
+    width: calc(100% - 20px);
+    border-bottom: 2px solid;
+    border-left: .5px solid;
+    border-right: .5px solid;
+}
+
+    }
+
+@media only screen and (min-width: 900px) {
+
+
+
+    #txt{
+        position: relative;
+        top:50px;
+        border-left:2px solid black;
+    }
+
+    .headertxt{
+        margin-left:40px;
+        width: 50%;
+        font-size: 30px;
+        
+    }
+    .hdrbeschr{
+        display: block;
+        margin-left:5px;
+        font-family: 'Roboto';
+    }
+    #txt1{
+        position: relative;
+        margin-left:45px;
+        line-height: 45px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        max-width: 35%;
+    }
+    
+    #b{
+        position: relative;
+        top:45px;
+    }
+
+    #vorname{
+        position: relative;
+        float:right;
+        left:-300px;
+        bottom:500px;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+    }
+     #ip1{
+        justify-content: flex-end;
+        position: relative;
+        display:block;
+        outline:none;
+        float:right;
+        right:125px;
+        top:-450px;
+        width: 175px;
+        height: 55px;
+        background-color: #f6f6f6;
+        border: none;
+        border-bottom: 2px solid #d9d9d9;
+        font-size: 17px;
+        border-top:1px solid rgb(150, 150, 150);
+        border-left:1px solid rgb(150, 150, 150);
+        border-right:1px solid rgb(150, 150, 150);
+        border-bottom: 1px solid rgb(150, 150, 150);
+        border-radius:35px;
+    }
+    
+    #nachname{
+        position:relative;
+        float:right;
+        left: 223px;
+        top:-500px;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+    
+    
+    }
+    #ip2{
+        position:relative;
+        display:block;
+        float:right;
+        top:-452px;
+        right:-400px;
+        width: 175px;
+        height: 55px;
+        background-color: #f6f6f6;
+        border: none;
+        border-bottom: 2px solid #d9d9d9;
+        font-size: 17px;
+        border-top:1px solid rgb(150, 150, 150);
+        border-left:1px solid rgb(150, 150, 150);
+        border-right:1px solid rgb(150, 150, 150);
+        border-bottom: 1px solid rgb(150, 150, 150);
+        border-radius:35px;
+    }
+
+    
+#email{
+    position:relative;
+    float:right;
+    left:215px;
+    top:-325px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+#ip3{
+    position:relative;
+    display:block;
+    float:right;
+    left:455px;
+    top:-320px;
+    width: 300px;
+    height: 55px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline:none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+#story{
+    position:relative;
+    float:right;
+    left:-4px;
+    top:-250px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#ip4{
+    position:relative;
+    display:block;
+    left: 485px;
+    top:-190px;
+    width: 485px;
+    height: 155px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline:none;
+    outline: none;
+    border-top:1px solid rgb(150, 150, 150);
+    border-left:1px solid rgb(150, 150, 150);
+    border-right:1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    border-radius:35px;
+}
+
+.btn{
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:-150px;
+    right:300px;
+    float:right;
+    width: 100px;
+    bottom:30px;
+    font-size:20px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: #21CAFF;
+    border: none;
+    outline: none;
+} 
+    
+.btn2{
+    text-align: center;
+    margin-top: 30px;
+    border-radius:35px;
+    position: relative;
+    top:-75px;
+    left:85%;
+    width: 100px;
+    bottom:30px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: var(--accent-color);
+    border: none;
+    text-align: left;
+    outline:none;
+} 
+
+    
+    }
+@media only screen and (min-width: 1125px) {
+
+    .wrapper{
+        position: relative;
+        top:150px;
+        left:125px;
+    }
+
+    .btn2{
+        text-align: center;
+        margin-top: 30px;
+        border-radius:35px;
+        position: relative;
+        top:-75px;
+        left:85%;
+        width: 115px;
+        bottom:30px;
+        font-size:23px;
+        padding:5px 5px 5px 5px;
+        color: black;
+        background-color: var(--accent-color);
+        border: none;
+        text-align: left;
+        outline:none;
+    } 
+
+    
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    .wrapper{
+        position: relative;
+        top:150px;
+        left:150px;
+    }
+    
+}
+
+@media only screen and (min-width: 1600px) {
+
+    
+    .wrapper{
+        position: relative;
+        top: 225px;
+        left:300px;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+
+    
+    .wrapper{
+        position: relative;
+        top:225px;
+        left:500px;
+    }
+
+}
+    
+
+    
