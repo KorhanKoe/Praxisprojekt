@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>tveds - Digital Agency</title>
+    
+    <link rel="stylesheet" href="stylez.css">
+    <link rel="icon" type="image/x-icon" href="Bilder/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/15d7c529f1.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+
+    <!-- Logo -->
+      <nav>
+            <img 
+            src="Bilder/tveds.png" 
+            alt="Logo tveds.com"/>
+          
+            <!-- Navigation -->
+
+            <input type="checkbox" id="toggle_button">      
+                <label for="toggle_button" class="toggle_button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+                      
+            <ul>
+                <li id="start"><a href="register.html" target="_blank" id="register">Start a Project</a></li>
+                <li id="exp" class="expandable_li">
+                    <input type="checkbox" id="contact_checkbox" id="check" onclick="check()">
+                    <label for="contact_checkbox" id="cont">Menu  <i class="fa fa-bars"></i></label>
+                    <ul class="dropdown" id="drop">
+                    <li id="service"><a href="Info.html" target="_parent" id="service">Services</a></li>
+                    <li id="about"><a href="Info.html" target="_parent" id="about">About</a></li>
+                    <li id="contact"><a href="Info.html" target="_parent" id="contact">Contact</a></li>
+                <li><a href="login.html" target="_blank" id="login">Login</a></li>
+            </li>
+            </ul>
+        </nav>
+
+    <main>
+        <!-- Der Banner auf der Titelseite -->
+        <div class="banner" id="banner">
+            <div class="banner-text" id="banner-text">
+                <h2>Wir helfen Ihnen!</h2> 
+                <div class="text-wrapper">
+                    <div class="box b1">Branding</div>
+                    <div class="box b2">Product</div>
+                    <div class="box b3">Apps</div>
+                    <div class="box b4">Services</div>
+                    <div class="box b5">Ideas</div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Titel-Bild -->
+          <div id="haende"> 
+            <img
+            src="Bilder/tveds.svg"  vspace="75"  align="left"
+            alt="haende, schuetteln, neon"
+            class="haende"
+            />
+          </div>
+        
+          <!-- Titel-Text -->
+          <a href="#">
+            <br>
+            <h2 class="section-heading" id="one">All Services</h2>
+            <h2 class="section-heading3" id="two">tveds.com</h2>
+          </a>
+          <!-- Text Eins -->
+          <div class="text-eins" id="texteins">
+                <h2 class="section-heading2"><br>
+                    Unser Unternhemen für Ihre Zukunft!
+                    Lassen Sie sich ein auf eine spannende Reise mit unserer Agentur für die Beihilfe bei der Webentwicklung und weiteren IT-Bezogenen Themen.
+                    Wir begleiten Sie gerne auf Ihrem Weg zur Informativen-Unabhängigkeit im Bereich World Wide Web.<br>
+                  </h2>
+            </div>
+            <br>
+
+            <!-- Section 1 -->
+            <section id="sec1">
+                <div class="card">
+                    <div class="card-image" id="cardimage1">
+                        <a href="#">
+                            <img src="Bilder/group1.jpg" 
+                            id="group1"
+                            alt="Card-Image1"
+                            />
+                        </a>  
+                      </div>
+              
+
+                <div class="card-descritpion" id="des1">
+                    <a href="#">
+                      <h3>Das Team</h3>
+                    </a>
+                    <p>
+                      Unser Team bestehend aus gut asugebildeten Experten hilft Ihnen dabei, Ihren Traum der Internet-Präsenz zu verwirklichen. 
+                      Mit unserem guten können und jahrelanger Erfahrung bietne wir Ihrem Unternehmen das Know-How an, das der heutige Generation fehlt.
+         
+                      <a href="info_main.html#section2" class="btn-readmore">Read more...</a>
+
+                    </p>
+                </div>
+            </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="sec2">
+                <div class="card">
+                    <div class="card-image" id="cardimage2">
+                        <a href="#">
+                          <img src="Bilder/work2.jpg" 
+                          alt="Card-Image2"
+                          /> 
+              
+                        </a>
+                    
+                    </div>
+
+                <div class="card-descritpion">
+                    <a href="#">                   
+                    <h3>Gemeinsam</h3>
+                  </a> 
+                        <p>
+                          Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
+                          Unsere Branding Abteilung verschafft Ihnen die Vorteile, die andere nicht haben.
+                          
+                        
+                        <a href="info_main.html#section3" class="btn-readmore">Read more...</a>
+                      </p>
+                      </div>
+                </div>
+            </section>
+            <!-- Section 3 -->
+            <section id="sec3">
+                <div class="card">
+                    <div class="card-image" id="cardimage3">
+                        <a href="#">
+                            <img src="Bilder/domor.jpg"
+                            alt="Card-image3">
+                        </a>
+                    </div>
+
+                <div class="card-descritpion">
+                    <a href="#">
+                        <h3>Produkte</h3>
+                    </a>
+                    <p>
+                        Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+                        <a href="Info_main.html" class="btn-readmore">Read more...</a>
+                    </p>
+                </div>
+                </div>
+            </section>
+
+            <section id="sec4">
+              <div class="card">
+                  <div class="card-image" id="cardimage4">
+                      <a href="#">
+                          <img src="Bilder/kugel.jpg"
+                          alt="Card-image4">
+                      </a>
+                  </div>
+
+              <div class="card-descritpion">
+                  <a href="#">
+                      <h3>Ideen</h3>
+                  </a>
+                  <p>
+                   Bringen wir die Sache ins Rollen! Die Ideen, die für Ihr Internet-Empire benötigt werden, warten bei uns nur darauf, verwendet zu werden. Worauf warten Sie?
+                      <a href="info_main.html" class="btn-readmore">Read more...</a>
+                  </p>
+              </div>
+              </div>
+          </section>
+          <br>
+          </section>
+
+</main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>     
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Jobs</a></li>
+          </ul>     
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-xing"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+ 
+  </footer>        
+
+</body>
+</html>
