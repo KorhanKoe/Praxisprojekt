@@ -4,33 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="Bilder/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>tveds - Digital Agency</title>
 
     <link rel="stylesheet" href="style_login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
+
     <nav>
-        <a class="logo" href="Hauptseite.html">           <!-- bild einfügen als logo-->
+        <a class="logo" href="index.html">           <!-- bild einfügen als logo-->
             <img 
-            src="/Users/korhan/Desktop/Praxisprojekt/html/Image/tveds.ico" 
+            src="Bilder/tveds.png" 
             alt="Logo tveds.com"/>
         </a>   
+        <h1 id="logos">tveds.com</h1>
 
-     
-           
-    </nav>
+</nav>
 
-    <h1>Formulare</h1>
+<div class="headertxt">
+    <h1>Anmelden</h1>
+</div>
+<div class="hdrbeschr">
+<h4 id="txt2">Herzlich Willkommen bei tveds.com. Bitte geben Sie Ihre Zugangsdaten ein.</h4>
+</div>
 
-    <form id="myform" action="login.php" methode="get">
 
-        <label for="text_id">Input</label>
-        <input type="text" id="text_id" name="input">
+<div id="pic">
+    <img
+    src="Bilder/Glühbirne.jpg"
+    alt="glühbirne, hand"
+    class="birne"
+    />
+</div>
 
+<br>
+    <div class="wrapper">
+        <form action="">
+        <form id="myform" action="login.php" methode="get">
+            
+    <div class="inputbox1">
+        <input type="text" placeholder="E-Mail" id="ip1">    
+        <id="myform" action="login.php" methode="get">
+    </id>
+    </div>
+    <div class="inputbox2" >
+        <input id="ip2" type="password" id="password" name="password" placeholder="Passwort" >
+        
+    </div>
+
+    <section id="btn">
+
+    <button type="submit" class="btn">Anmelden</button>
+    <button type="submit"  class="btn2"><a href="index.html" id="abbr">Abbrechen</button></a>
+    
+    </form>
+        </form>
+    </div>
+<br>
+    <div class="registerlink">
+        <a href="#" onclick="document.getElementById('myform').submit()">Noch kein Kundenkonto? Hier registrieren.</a>
         <br>
-        <input type="submit">
+        <br>
+        <a href="#">Infos zu unserem Service.</a>
+    </section>    
 
-        <a href="#" onclick="document.getElementById('myform').submit()">Link</a>
+    <section id="border">
+        
+    </section>
+    </div>
+
     </form>
 </body>
 </html>
