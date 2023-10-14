@@ -1,5 +1,4 @@
 <?php
-// adding the CSS and JS filesize
 //2. parameter zum übernehmen des Stylesheets, 3. Die Dependencies, 4. Version Nummer, 5.
 //Versionnummer muss bei jeder Änderung actualisiert werden, es kann stattdessen microtime() während der Entwicklung genutzt werden, was die Versions-Nummer bei jedem Aufruf ändert.
 function tv_setup() {
@@ -22,8 +21,6 @@ function tv_init() {
 }
 
 add_action('after-setup_theme', 'gt-init');
-
-//projects post type
 
 function tv_custom_post_type() {
     register_post_type('project',
