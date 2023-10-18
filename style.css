@@ -39,8 +39,27 @@ h1{
 
 }
 
+h3{
+    margin-top:20px;
+    margin-left:35px;
+
+}
+
+
+h5{
+    padding: 8px;
+    --background-color: white;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 58px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom:10px;
+}
+
 p{
     line-height: 1.5;
+    margin-left:35px;
+
 }
 
 
@@ -115,6 +134,8 @@ nav ul a{
 
 
 /* Dropdown-Menu Style der Boxen */
+
+
 
 #login{
     background-color: var(--background-color);
@@ -569,6 +590,7 @@ nav input[type="checkbox"]{
          margin-top: 80px; 
          margin-left: 5px;
          margin-right: 5px;
+         margin-bottom:20px;
      }
 
     /* Sections stylen */
@@ -787,7 +809,7 @@ nav input[type="checkbox"]{
         }
     }
 
-    /* Anpassung erst ab bestimmter Fenster-Größe gültig */
+    /* Anpassung erst ab bestimmter Fenster-Groesse gueltig */
     /* Zentriert die Bilder */
     @media screen and (min-width: 550px) {
         #haende {height: 550px;
@@ -1044,6 +1066,26 @@ Deswegen habe ich sie da gelassen. */
 
 /* info und infomain stylen */
 
+
+#svr{
+    font-size:36px;
+}
+
+#knt{
+    font-size:36px;
+}
+#abt{
+    font-size:36px;
+}
+/* #svr{
+    font-size:36px;
+}
+#svr{
+    font-size:36px;
+}
+  */
+
+
     section#all{
         border-left: 5px solid black;
         border-right: 5px solid black;
@@ -1090,6 +1132,13 @@ Deswegen habe ich sie da gelassen. */
         background-color:#b5ebff;
     }
 
+    #sec5 {
+        background-color:#b5ebff;
+    }
+
+    #sec7 {
+        background-color:#b5ebff;
+    }
     
 
 .btn{
@@ -1391,6 +1440,13 @@ Deswegen habe ich sie da gelassen. */
 /* --------------------------------------------------------------------------------- */
 
 /* register-Seite */
+
+
+
+#br{
+    margin-top:10%;
+    font-size:58px;
+}
     
 .btn2{
     text-align: center;
@@ -1420,7 +1476,8 @@ Deswegen habe ich sie da gelassen. */
     bottom:75px;
     width: 50%;
     font-size: 30px;
-    margin-left:20px;
+    margin-left:1px;
+    margin-top:50px;
     
 }
 
@@ -1441,11 +1498,12 @@ Deswegen habe ich sie da gelassen. */
     bottom:75px;
     display: block;
     margin-left:5px;
+    margin-top:20px;
 }
 #txt1{
     line-height: 45px;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #txt2{
@@ -1471,7 +1529,7 @@ Deswegen habe ich sie da gelassen. */
     position: relative;
     float:left;
     left:24px;
-    bottom:5px;
+    bottom:-5px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
@@ -1493,6 +1551,8 @@ Deswegen habe ich sie da gelassen. */
     border-right:1px solid rgb(150, 150, 150);
     border-bottom: 1px solid rgb(150, 150, 150);
     border-radius:35px;
+    padding-left:5px;
+
 }
 
 #ip1:focus{
@@ -1508,7 +1568,7 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     float:left;
     left:24px;
-    top:38px;
+    top:45px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 
@@ -1530,6 +1590,8 @@ Deswegen habe ich sie da gelassen. */
     border-right:1px solid rgb(150, 150, 150);
     border-bottom: 1px solid rgb(150, 150, 150);
     border-radius:35px;
+    padding-left:5px;
+
 }
 
 #ip2:focus{
@@ -1546,14 +1608,14 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     float:left;
     left:24px;
-    top:85px;
+    top:100px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
 #ip3{
     position:relative;
     display:block;
-    right:35px;
+    right:37px;
     top:130px;
     width: 300px;
     height: 55px;
@@ -1567,7 +1629,10 @@ Deswegen habe ich sie da gelassen. */
     border-bottom: 1px solid rgb(150, 150, 150);
     border-radius:35px;
     font-size: 17px;
+    padding-left:5px;
+    padding-right: 5px;
 }
+
 
 #ip3::placeholder{
     font-size: 17px;
@@ -1590,8 +1655,10 @@ Deswegen habe ich sie da gelassen. */
     font-family: 'Raleway', sans-serif;
 }
 
+
 .inputbox4{
     text-align: left;
+    margin-top:40px;
 }
 
 #ip4{
@@ -1671,7 +1738,8 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     border-bottom: 40px solid #21CAFF;
     top:185px;
-    right:8px;
+    right:15px;
+    width: 120%;
 }
 
 @media only screen and (max-height: 800px) {
@@ -1683,6 +1751,10 @@ Deswegen habe ich sie da gelassen. */
 
 @media only screen and (min-width: 600px) {
 
+    .inputbox3{
+        position:relative;
+        right:-4px;
+    }
 
     .headertxt{
         width: 50%;
@@ -1699,41 +1771,12 @@ Deswegen habe ich sie da gelassen. */
         font-family: 'Raleway', sans-serif;
     }
      #ip1{
-        justify-content: flex-end;
         position: relative;
         display:block;
         outline:none;
         right:60px;
-        top:40px;
-        width: 175px;
-        height: 55px;
-        background-color: #f6f6f6;
-        border: none;
-        border-bottom: 2px solid #d9d9d9;
-        font-size: 17px;
-        border-top:1px solid rgb(150, 150, 150);
-        border-left:1px solid rgb(150, 150, 150);
-        border-right:1px solid rgb(150, 150, 150);
-        border-bottom: 1px solid rgb(150, 150, 150);
-        border-radius:35px;
-    }
-    
-    #nachname{
-        position:relative;
-        float:left;
-        left: 300px;
-        top:-64px;
-        font-size: 17px;
-        font-family: 'Raleway', sans-serif;
-    
-    
-    }
-    #ip2{
-        position:relative;
-        display:block;
-        right:-196px;
-        top:-20px;
-        width: 175px;
+        top:35px;
+        width: 300px;
         height: 55px;
         background-color: #f6f6f6;
         border: none;
@@ -1746,12 +1789,54 @@ Deswegen habe ich sie da gelassen. */
         border-radius:35px;
     }
 
+    #ip1:focus{
+        outline: none;
+        border-bottom: 3px solid #21CAFF;;
+    }
+    
+    #ip1:focus::placeholder{
+        opacity:.3;
+    }
+
+    #nachname{
+        position:relative;
+        float:left;
+        left: 23px;
+        top: 60px;
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+    
+    
+    }
+    #ip2{
+        position:relative;
+        display:block;
+        right:75px;
+        top:100px;
+        width: 300px;
+        height: 55px;
+        background-color: #f6f6f6;
+        border: none;
+        border-bottom: 2px solid #d9d9d9;
+        font-size: 17px;
+        border-top:1px solid rgb(150, 150, 150);
+        border-left:1px solid rgb(150, 150, 150);
+        border-right:1px solid rgb(150, 150, 150);
+        border-bottom: 1px solid rgb(150, 150, 150);
+        border-radius:35px;
+    }
+
+    .inputbox2{
+        position:relative;
+        bottom:8px;
+    }
+
     
 #email{
     position:relative;
     float:left;
     left:24px;
-    top:23px;
+    top:115px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
@@ -1759,7 +1844,7 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     display:block;
     right:42px;
-    top:70px;
+    top:150px;
     width: 300px;
     height: 55px;
     background-color: #f6f6f6;
@@ -1777,7 +1862,7 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     float:left;
     left:24px;
-    top:105px;
+    top:155px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
@@ -1786,7 +1871,7 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     display:block;
     left:18px;
-    top:115px;
+    top:175px;
     width: 510px;
     height: 155px;
     background-color: #f6f6f6;
@@ -1802,11 +1887,11 @@ Deswegen habe ich sie da gelassen. */
 }
 
 .btn3{
-    margin-top: 30px;
+    margin-top: 70px;
     border-radius:35px;
     position: relative;
-    top:140px;
-    float:left;
+    top:170px;
+    left:20px;
     width: 100px;
     bottom:30px;
     font-size:23px;
@@ -1851,9 +1936,6 @@ Deswegen habe ich sie da gelassen. */
     }
 
 @media only screen and (min-width: 900px) {
-
-
-
     #txt{
         position: relative;
         top:50px;
@@ -1918,7 +2000,7 @@ Deswegen habe ich sie da gelassen. */
         position:relative;
         float:right;
         left: 223px;
-        top:-500px;
+        top:-496px;
         font-size: 17px;
         font-family: 'Raleway', sans-serif;
     
@@ -1928,7 +2010,7 @@ Deswegen habe ich sie da gelassen. */
         position:relative;
         display:block;
         float:right;
-        top:-452px;
+        top:-445px;
         right:-400px;
         width: 175px;
         height: 55px;
@@ -1948,7 +2030,7 @@ Deswegen habe ich sie da gelassen. */
     position:relative;
     float:right;
     left:215px;
-    top:-325px;
+    top:-350px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
@@ -1999,7 +2081,7 @@ Deswegen habe ich sie da gelassen. */
     border-radius:35px;
 }
 
-.btn3{
+.btn{
     margin-top: 30px;
     border-radius:35px;
     position: relative;
@@ -2033,6 +2115,24 @@ Deswegen habe ich sie da gelassen. */
     text-align: left;
     outline:none;
 } 
+
+.btn3{
+    margin-top: 70px;
+    border-radius:35px;
+    position: relative;
+    top:-170px;
+    left:490px;
+    width: 100px;
+    bottom:30px;
+    font-size:23px;
+    padding:5px 5px 5px 5px;
+    color: black;
+    background-color: #21CAFF;
+    border: none;
+    outline: none;
+} 
+
+
 
     
     }
@@ -2102,6 +2202,11 @@ Deswegen habe ich sie da gelassen. */
 
 /* Login-Seite */
 
+#br2{
+    margin-top:10%;
+    font-size:58px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
 #top2{
     position:relative;
     border-bottom: 40px solid rgb(111, 193, 248);
@@ -2147,7 +2252,7 @@ Deswegen habe ich sie da gelassen. */
     font-size: 13px;
     margin-left: 0px;
     --text-color:black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -2167,7 +2272,7 @@ Deswegen habe ich sie da gelassen. */
 }
 
 .inputbox1{
-    margin-top:30px;
+    margin-top:10px;
 }
 
 #ip5 input{
@@ -2254,7 +2359,7 @@ Deswegen habe ich sie da gelassen. */
     outline: none;
 }
 
-.btn:hover{
+.btn4:hover{
     background-color: #17bbec;
 
 }
@@ -2264,7 +2369,7 @@ Deswegen habe ich sie da gelassen. */
     margin-right:50px;
     border-radius:35px;
     padding:5px 5px 5px 5px;
-    font-size:23px;
+    font-size:25px;
     background-color: whitesmoke;
     border: none;
     outline: none;
