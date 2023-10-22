@@ -9,6 +9,4 @@
     <?php wp_head(); ?>
     <title>tveds - Digital Agency</title>
     
-    <!-- ?php echo get_template_directory_uri(); ?> -->
-
   </head>
