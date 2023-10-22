@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?>      <!-- Wordpress Funktion -->
 
 <body>
 
@@ -19,20 +19,20 @@
             </label>
                   
         <ul>
-            <li id="start"><a href="<?php echo site_url('/archive'); ?>"
+            <li id="start"><a href="<?php echo site_url('/register'); ?>"
                     <?php if(is_page('register')) echo 'class="active"' ?> target="_blank" id="register"><span id="one">Start a Project</span></a></li>
             <li id="exp" class="expandable_li">
                 <input type="checkbox" id="contact_checkbox" id="check" onclick="check()">
                 <label for="contact_checkbox" id="cont"><span id="one">Menu  </span><i class="fa fa-bars"></i></label>
                 <ul class="dropdown" id="drop">
-                <li id="service"><a href="<?php echo site_url('/index'); ?>"
-                    <?php if(is_page('info') == 'post') echo 'class="active"' ?> target="_parent" id="service">Services</a></li>
-                <li id="about"><a href="<?php echo site_url('/page'); ?>" 
-                    <?php if(is_page('info') == 'service') echo 'class="active"' ?> target="_parent" id="about">About</a></li>
-                <li id="contact"><a href="<?php echo site_url('/page'); ?>" 
-                    <?php if(is_page('info')) echo 'class="active"' ?> target="_parent" id="contact">Contact</a></li>
-            <li><a href="<?php echo site_url('/blog'); ?>" 
-                    <?php if(is_page('index')) echo 'class="active"' ?>target="_blank" id="login">Login</a></li>
+                <li id="service"><a href="<?php echo site_url('/info#svr'); ?>"
+                    target="_parent" id="service">Services</a></li>
+                <li id="about"><a href="<?php echo site_url('/info#abt'); ?>" 
+                     target="_parent" id="about">About</a></li>
+                <li id="contact"><a href="<?php echo site_url('/info#knt'); ?>" 
+                     target="_parent" id="contact">Contact</a></li>
+            <li><a href="<?php echo site_url('/login'); ?>" 
+                   target="_blank" id="login">Login</a></li>
         </li>
         </ul>
     </nav>
@@ -62,11 +62,9 @@
       </div>
     
       <!-- Titel-Text -->
-      <a href="<?php echo site_url('/page'); ?>">
         <br>
         <h2 class="section-heading" id="one">All Services</h2>
       </a>
-      <a href="<?php echo site_url('/page'); ?>">
         <h2 class="section-heading3" id="two">tveds.com</h2>
       </a>
       <!-- Text Eins -->
@@ -84,7 +82,6 @@
         <section id="sec1">
             <div class="card">
                 <div class="card-image" id="cardimage1">
-                    <a href="#">
                         <img src="<?php echo get_template_directory_uri(); ?>/bildr/group1.jpg" 
                         id="group1"
                         alt="Card-Image1"
@@ -94,14 +91,13 @@
           
 
             <div class="card-descritpion" id="des1">
-                <a href="#">
                   <h3>Das Team</h3>
                 </a>
                 <p>
                   Unser Team bestehend aus gut asugebildeten Experten hilft Ihnen dabei, Ihren Traum der Internet-Präsenz zu verwirklichen. 
-                  Mit unserem guten können und jahrelanger Erfahrung bietne wir Ihrem Unternehmen das Know-How an, das der heutige Generation fehlt.
+                  Mit unserem guten können und jahrelanger Erfahrung bietne wir Ihrem Unternehmen das Know-How an, das Sie an die Spitze treibt.
      
-                  <a href="infomainkop.html#section2" class="btn-readmore">Read more...</a>
+                  <a href="<?php echo site_url('/info#tm'); ?>" class="btn-readmore">Read more...</a>
 
                 </p>
             </div>
@@ -112,7 +108,6 @@
         <section id="sec2">
             <div class="card">
                 <div class="card-image" id="cardimage2">
-                    <a href="#">
                       <img src="<?php echo get_template_directory_uri(); ?>/bildr/work2.jpg" 
                       alt="Card-Image2"
                       /> 
@@ -130,7 +125,7 @@
                       Unsere Branding Abteilung verschafft Ihnen die Vorteile, die andere nicht haben.
                       
                     
-                    <a href="infomainkop.html#section3" class="btn-readmore">Read more...</a>
+                    <a href="<?php echo site_url('/info#gmnsm'); ?>" class="btn-readmore">Read more...</a>
                   </p>
                   </div>
             </div>
@@ -139,29 +134,25 @@
         <section id="sec3">
             <div class="card">
                 <div class="card-image" id="cardimage3">
-                    <a href="#">
                         <img src="<?php echo get_template_directory_uri(); ?>/bildr/domor.jpg"
                         alt="Card-image3">
                     </a>
                 </div>
 
             <div class="card-descritpion">
-                <a href="#">
                     <h3>Produkte</h3>
                 </a>
                 <p>
                     Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
-                    <a href="Infomainkop.html" class="btn-readmore">Read more...</a>
+                    <a href="<?php echo site_url('/info#prdkt'); ?>" class="btn-readmore">Read more...</a>
                 </p>
             </div>
             </div>
         </section>
 
-      <!-- Section 4 -->
         <section id="sec4">
           <div class="card">
               <div class="card-image" id="cardimage4">
-                  <a href="#">
                       <img src="<?php echo get_template_directory_uri(); ?>/bildr/kugel.jpg"
                       alt="Card-image4">
                   </a>
@@ -173,7 +164,7 @@
               </a>
               <p>
                Bringen wir die Sache ins Rollen! Die Ideen, die für Ihr Internet-Empire benötigt werden, warten bei uns nur darauf, verwendet zu werden. Worauf warten Sie?
-                  <a href="infomainkop.html" class="btn-readmore">Read more...</a>
+                  <a href="<?php echo site_url('/info#idee'); ?>" class="btn-readmore">Read more...</a>
               </p>
           </div>
           </div>
