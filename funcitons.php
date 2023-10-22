@@ -1,12 +1,11 @@
 <?php
-// adding the CSS and JS filesize
-//2. parameter zum übernehmen des Stylesheets, 3. Die Dependencies, 4. Version Nummer, 5.
+// adding the CSS and JS files
 //Versionnummer muss bei jeder Änderung actualisiert werden, es kann stattdessen microtime() während der Entwicklung genutzt werden, was die Versions-Nummer bei jedem Aufruf ändert.
 function tv_setup() {
-    wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime());
-    wp_enqueue_script("main", get_theme_file_uri('/js/main.js'),NULL, microtime(), true);
-    wp_enqueue_style('google-fonts','https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-    wp_enqueue_style('fontawesome','https://kit.fontawesome.com/15d7c529f1.js');
+    wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime()); //1. parameter ist der Name der Datei 2. parameter zum übernehmen des Stylesheets, 3. Die Dependencies, 4. Version Nummer
+    wp_enqueue_script("main", get_theme_file_uri('/js/main.js'),NULL, microtime(), true);   //dasselbe für javascript
+    wp_enqueue_style('google-fonts','https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');   //die fonts vont html übernehmen
+    wp_enqueue_style('fontawesome','https://kit.fontawesome.com/15d7c529f1.js');    
 
 }
 
@@ -63,7 +62,8 @@ if(isset($_POST['submitbtn'])) {        //checked den submit button
         echo "<script>alert('Sie haben sich erfolgreich registriert! Checken Sie Ihren Mail-Ordner');</script>";
     }else{
         echo "<script>alert('Keine Registrierung möglich.');</script>";
-        }
+        wp_redirect('https://www.google.de/');
+        wp_die();
     }
 
 ?>
