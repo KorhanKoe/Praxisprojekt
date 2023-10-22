@@ -1,9 +1,9 @@
-<?php get_header(); ?>
+ <?php get_header(); ?>  <!--sucht nach einer Datei mit dem Namen header.php -->
 
 <body>
     <nav>
             <img 
-            src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png" 
+            src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"      
             alt="Logo tveds.com"/>
         </a>   
 
@@ -11,6 +11,7 @@
 <div id="dropdown">
 </div>
 <ul>
+    <!--echo site_url ist für Verlinkungen auf andere Seiten gedacht -->
     <li><a href="<?php echo site_url('/register'); ?>" id="start2"><span>Start a Project</span></a></li>
     <li><a href="<?php echo site_url('/login'); ?>" 
     <?php if(is_page('index')) echo 'class="active"' ?> target="_blank" id="login2"><span>Login</span></a></li>
@@ -39,35 +40,11 @@
           <h3 id="svr">Service</h3>
         </a>
         <p>
-          Unser Team bestehend aus gut asugebildeten Experten hilft Ihnen dabei, Ihren Traum der Internet-Präsenz zu verwirklichen. 
-          Mit unserem guten können und jahrelanger 
-          Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    Erfahrung bietne wir Ihrem Unternehmen das Know-How an, das der heutige Generation fehlt.
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
+          Unser Service umfasst das erstellen oder verbessern Ihrer Marke im Internet. Wir haben uns darauf fokussiert, Produkte weiter zu entwicklen und auszubessern.
+          Der Service umfasst alles, was vermarktet werden soll. Sie können nach einer erfolgreichen Registrierung sich bei unserem Portal anmelden und dann mit einem unserer
+          Mitarbeiter in Kontakt treten. Nach einer kurzen Absprache ist dieser dann in der Lage, Ihnen einen Preisvorschlag für die gewünschten Änderungen oder aber die neu gestaltung
+          Ihrer Webseite zu geben. Mit zahlreichen Kunden auf der ganzen Welt sind wir ein vertrauenswürdiges Unternehmen, das vor allem auf ein beeindruckendes Ergebnis setzt.
+          Sei es ein einfaches, schlichtes aber eindrucksvolles Design oder aber auch etwas aussergewöhnliches, extravagantes, wir haben für jeden Geschmack was dabei.
 
         </p>
     </div>
@@ -79,62 +56,11 @@
 
 
     <div class="card-descritpion">
-        <h3 id="knt">Contact</h3>
+        <h3 id="knt">Kontakt</h3>
       </a> 
             <p>
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.        
-
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
-
-              Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-              Unsere Branding Abtesilung verschafft Ihnen die Vorteile, die andere nicht haben.    
+              Gerne treten wir mit Ihnen in Kontakt. Gehen sie dazu nur auf den folgenden Link <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project</b> </a>
+              und registrieren sich bei uns. Gerne können sie uns auch per E-Mail Kontaktieren unter: <b>kundendialog@tveds.com.</b></a>
               </p>
           </div>
     </div>
@@ -148,7 +74,9 @@
             <h3 id="abt">About</h3>
         </a>
         <p>
-            Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+            Gegründet im Jahr 2023 ist unser Unternehmen darauf spezialisiert, Ihr Unternehmen zu verbessern. Wir sind ein Anbieter für digitale Dienstleistungen und setzen auf gute Qualität und eindrucksvolles
+            Design. Wir stehen in stetigem Dialog mit unseren Kunden und gehen auf jeden Wunsch ein, der uns vorgestellt wird. Gerne beraten wir Sie bezüglich Ihrer Idee
+            und stellen Ihnen unsere Langjährige Erfahrung und unsere Kompetenz zur Verfügung.
         </p>
     </div>
     </div>
@@ -162,7 +90,9 @@
             <h3 id="tm">Das Team</h3>
         </a>
         <p>
-            Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+            Unser Team besteht aus zahlreichen Entwicklern, die alle in stetigem Kontakt zueinander stehen und sich gegenseitig Unterstützen.
+            Unser unternehmen baut auf Gemeinsamkeit auf und ist nicht geleitet von einigen wenige Einzelgängern. Durch ständiges Austauschen und einen 
+            freundlichen Umgang haben wir eine besondere Team-Chemie hergestellt, die es uns erlaubt, jeden Kundenwunsch optimal zu erfüllen.
         </p>
     </div>
     </div>
@@ -177,7 +107,10 @@
             <h3 id="gmnsm">Gemeinsam</h3>
         </a>
         <p>
-            Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+            Gemeinsam mit unseren Kunden schaffen wir es, ein Produkt auf den Markt zu bringen, das seines gleichen noch nicht kennt. Durch stetige Kommunikation und
+            das hinterfragen jeglicher Ideen mit professionellen Vorschlägen zur Umsetzung schaffen wir es, die Pläne so umzusetzen, wie Sie sie sich vorgestellt haben.
+            Gerne beraten wir Sie nach einer Erfolgreichen Registrierung über das weitere Vorgehen.
+            Hier <a href="<?php echo site_url('/register'); ?>"> <b>registrieren</b>  </a>
         </p>
     </div>
     </div>
@@ -190,7 +123,8 @@
             <h3 id="prdkt">Produkte</h3>
         </a>
         <p>
-            Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+            Wir haben so einige Webseiten bereits gestaltet und sehr viele sehr Zufriedene Kunden gewonnen. Über den folgenden Link können sie
+            einige unserer stolzesten Kunden sehen und Ihre Webseiten betrachten: <a href="#"><b> Link</b> </a>
         </p>
     </div>
     </div>
@@ -204,7 +138,9 @@
             <h3 id="idee">Ideen</h3>
         </a>
         <p>
-            Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
+       Sie möchten Ihr Produkt verbessern? Sie wollen aus der großen Masse herausstechen? Kein Problem!
+            Über <b>Kundendialog@tveds.com</b> können Sie einen unserer freundlichen Mitarbeiter vorab kennenlernen, oder aber Sie 
+            registrieren sich direkt über <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b> </a>
         </p>
     </div>
     </div>
