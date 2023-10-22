@@ -21,7 +21,7 @@ function tv_init() {
     );
 }
 
-add_action('after-setup_theme', 'gt-init');
+add_action('after-setup_theme', 'tv-init');
 
 //projects post type
 
