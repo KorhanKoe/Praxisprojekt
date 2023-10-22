@@ -62,8 +62,6 @@ if(isset($_POST['submitbtn'])) {        //checked den submit button
         echo "<script>alert('Sie haben sich erfolgreich registriert! Checken Sie Ihren Mail-Ordner');</script>";
     }else{
         echo "<script>alert('Keine Registrierung möglich.');</script>";
-        wp_redirect('https://www.google.de/');
-        wp_die();
     }
 
 ?>
