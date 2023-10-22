@@ -1,3 +1,9 @@
+/* Theme Name: tvedsTheme
+Author: Hasan Korhan Köroglu
+Author URI: https://tveds.com
+Description: Official theme for tveds
+Version: 1.0 */
+
 /* Feste Variablen */
 :root{
     --background-color: white;                
@@ -1077,13 +1083,24 @@ Deswegen habe ich sie da gelassen. */
 #abt{
     font-size:36px;
 }
-/* #svr{
+
+#tm{
     font-size:36px;
 }
-#svr{
+
+#gmnsm{
     font-size:36px;
 }
-  */
+#prdkt{
+    font-size:36px;
+}
+
+#idee{
+    font-size:36px;
+}
+
+
+
 
 
     section#all{
@@ -2507,6 +2524,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
         bottom:190px;
         right: 175px;
     }
+
 }
 
 /* ---------------------------------------------------------------------------------------------- */
