@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?>          <!-- Ruft den Header auf, ist eine WordPress spezifische Funktion -->
 
 <body>
 
@@ -7,7 +7,7 @@
 
     </section>
 
-
+<!-- Das Erstellend der Register Seite -->
     <nav>
         <div class="logo2">
         <a href="index.html">           <!-- bild einfügen als logo-->
