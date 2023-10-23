@@ -11,40 +11,6 @@ function tv_setup() {
 
 add_action('wp_enqueue_scripts', 'tv_setup');       //Hier wird festgelegt, wann die Funktion ausgeführt werden soll und wie die Funktion heißt
 
-// html theme support
-function tv_init() {
-    add_theme_support('post-thumbnails');
-    add_theme_support('title-tag');      // für die Tab Schrift
-    add_theme_support('html5',
-        array('comment-list', 'comment-form','search-form')     //hier soll html5 implementiert werden
-    );
-}
-
-add_action('after-setup_theme', 'tv-init');
-
-//projects post type
-
-function tv_custom_post_type() {
-    register_post_type('project',
-        array(
-            'rewrite' => array('slug' => 'projects'),
-            'labels' => array(
-                    'name'=>'Projects',
-                    'singular_name'=> 'Project',
-                    'add_new_item' => 'Add New Project',
-                    'edit-item' => 'Edit Project'
-            ),
-            'menu-icon' => 'dashicons-clipboard',
-            'public' => true,
-            'has_archive' => true,      //ermöglicht das Nutzen von archives
-            'supports' => array(
-                'title', 'thumbnail', 'editor', 'excerpt', 'comments'
-            )
-            )
-            );
-}
-
-add_action('init', 'tv_custom_post_type');      //um die Function zu starten
 
 if(isset($_POST['submitbtn'])) {        //checked den submit button
     $data = array(                      //falls ja, werden diese Dateien abgerufen
@@ -63,5 +29,5 @@ if(isset($_POST['submitbtn'])) {        //checked den submit button
     }else{
         echo "<script>alert('Keine Registrierung möglich.');</script>";
     }
-
+}
 ?>
