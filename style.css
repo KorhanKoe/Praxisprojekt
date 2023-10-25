@@ -35,6 +35,15 @@ body{
    align-items: center;
 }
 
+p{
+    position:relative;
+    line-height: 1.5;
+    margin:0;
+    text-align: left;
+    right:33px;
+}
+
+
 h1{
     padding: 8px;
     --background-color: white;
@@ -52,6 +61,7 @@ h3{
 }
 
 
+
 h5{
     padding: 8px;
     --background-color: white;
@@ -67,7 +77,6 @@ p{
     margin-left:35px;
 
 }
-
 
 
 main{
@@ -609,14 +618,6 @@ nav input[type="checkbox"]{
         align-items: center;
         justify-content: space-around;
     }
-
-   .card-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-   
 
     /* Der obere All-Services Teil */
     .section-heading{
@@ -1186,34 +1187,6 @@ Deswegen habe ich sie da gelassen. */
 }
 
 /* cards stylen und positionieren */
-    
-    .card-image{
-        width: 100%;
-        display:flex;
-        align-items: space-between;
-        transition:0.4s;
-        object-fit:fill;
-        text-align: left;
-        max-width: 750px;
-    }
-
-    .card-image:hover{
-        box-shadow: 0 5px 3px -3px #777;;
-        max-width: 750px;
-    }
-
-    .card .card-description #des1{
-        padding: 0 8px;
-    }
-
-    .card{
-        margin-top:100px;
-    }
-
-    .card .card-image img {
-        width: 100%;
-        max-width: 750px;
-    }
 
 
     /* section source */
@@ -1370,16 +1343,6 @@ Deswegen habe ich sie da gelassen. */
         max-width: -10%;
     }
 
-    .card{
-        width: 70%;
-        height:25%;
-        max-width: 1050px;
-    }
-
-    .card .card-image img{
-        width: 100%;
-        max-width:750px;
-    }
 
     .footer {
         background-color: #24252b;
