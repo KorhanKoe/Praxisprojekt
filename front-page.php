@@ -4,8 +4,7 @@
 
 
 <!-- Logo -->
-  <nav> 
-    <!-- der php-Befehl sorgt dafür, dass auf das Bild über den Ordner zugegriffen werden kann. Ansonsten wird es nicht angezeigt. -->
+  <nav>
   <img 
         src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"
         alt="Logo tveds.com"/>
@@ -20,9 +19,8 @@
             </label>
                   
         <ul>
-          <!-- Hier sind die php-Befehle für die Verlinkungen eingerichtet, so dass zwischen Seiten gewechselt werden kann -->
             <li id="start"><a href="<?php echo site_url('/register'); ?>"
-               target="_blank" id="register"><span id="one">Start a Project</span></a></li>
+                    <?php if(is_page('register')) echo 'class="active"' ?> target="_blank" id="register"><span id="one">Start a Project</span></a></li>
             <li id="exp" class="expandable_li">
                 <input type="checkbox" id="contact_checkbox" id="check" onclick="check()">
                 <label for="contact_checkbox" id="cont"><span id="one">Menu  </span><i class="fa fa-bars"></i></label>
@@ -93,7 +91,8 @@
           
 
             <div class="card-descritpion" id="des1">
-                  <h3>Das Team</h3>
+            <a href="<?php echo site_url('/info#tm'); ?>">
+                  <h2>Das Team</h2>
                 </a>
                 <p>
                   Unser Team bestehend aus gut asugebildeten Experten hilft Ihnen dabei, Ihren Traum der Internet-Präsenz zu verwirklichen. 
@@ -108,6 +107,7 @@
 
         <!-- Section 2 -->
         <section id="sec2">
+
             <div class="card">
                 <div class="card-image" id="cardimage2">
                       <img src="<?php echo get_template_directory_uri(); ?>/bildr/work2.jpg" 
@@ -119,18 +119,18 @@
                 </div>
 
             <div class="card-descritpion">
-                <a href="#">                   
-                <h3>Gemeinsam</h3>
+            <a href="<?php echo site_url('/info#gmnsm'); ?>">
+                <h2>Gemeinsam</h2>
               </a> 
                     <p>
                       Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
                       Unsere Branding Abteilung verschafft Ihnen die Vorteile, die andere nicht haben.
-                      
-                    
+                    </p>
                     <a href="<?php echo site_url('/info#gmnsm'); ?>" class="btn-readmore">Read more...</a>
                   </p>
                   </div>
             </div>
+
         </section>
         <!-- Section 3 -->
         <section id="sec3">
@@ -142,7 +142,8 @@
                 </div>
 
             <div class="card-descritpion">
-                    <h3>Produkte</h3>
+                <a href="<?php echo site_url('/info#prdkt'); ?>">
+                    <h2>Produkte</h2>
                 </a>
                 <p>
                     Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
@@ -161,13 +162,13 @@
               </div>
 
           <div class="card-descritpion">
-              <a href="#">
-                  <h3>Ideen</h3>
+          <a href="<?php echo site_url('/info#idee'); ?>">
+                  <h2>Ideen</h2>
               </a>
               <p>
                Bringen wir die Sache ins Rollen! Die Ideen, die für Ihr Internet-Empire benötigt werden, warten bei uns nur darauf, verwendet zu werden. Worauf warten Sie?
                   <a href="<?php echo site_url('/info#idee'); ?>" class="btn-readmore">Read more...</a>
-              </p>
+</p>   
           </div>
           </div>
       </section>
