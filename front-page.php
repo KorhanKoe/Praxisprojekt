@@ -4,7 +4,8 @@
 
 
 <!-- Logo -->
-  <nav>
+  <nav> 
+    <!-- der php-Befehl sorgt dafür, dass auf das Bild über den Ordner zugegriffen werden kann. Ansonsten wird es nicht angezeigt. -->
   <img 
         src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"
         alt="Logo tveds.com"/>
@@ -19,6 +20,7 @@
             </label>
                   
         <ul>
+          <!-- Hier sind die php-Befehle für die Verlinkungen eingerichtet, so dass zwischen Seiten gewechselt werden kann -->
             <li id="start"><a href="<?php echo site_url('/register'); ?>"
                     <?php if(is_page('register')) echo 'class="active"' ?> target="_blank" id="register"><span id="one">Start a Project</span></a></li>
             <li id="exp" class="expandable_li">
