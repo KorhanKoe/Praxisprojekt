@@ -1,22 +1,23 @@
-<footer class="footer">
+<footer class="footer">   <!-- Erstellen einer Footer Klasse mit dem Inhalt des Footers -->
     <div class="container">
       <div class="row">
         <div class="footer-col">
-          <h4>company</h4>
+          <h4>company</h4>      <!--Die classen und lis werden dann über style.css aufgerufen und designed -->
           <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">our services</a></li>
+            <li><a href="<?php echo site_url('/info#abt'); ?>">about us</a></li>
+            <li><a href="<?php echo site_url('/info#svr'); ?>">our services</a></li>
             <li><a href="#">privacy policy</a></li>
             <li><a href="#">affiliate program</a></li>
           </ul>     
         </div>
         <div class="footer-col">
           <h4>get help</h4>
+        <!-- Nicht alle Verlinkungen wurden gestellt, da einige Seiten noch nicht erstellt wurden, wie zum Beispiel Reviews oder FAQ
           <ul>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Reviews</a></li>
-            <li><a href="#">Start</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href=""<?php echo home_url(); ?>"">Start</a></li>
+            <li><a href="<?php echo site_url('/info#knt'); ?>">Kontakt</a></li>
             <li><a href="#">Jobs</a></li>
           </ul>     
         </div>
@@ -31,6 +32,6 @@
  
   </footer>        
 
-  <?php wp_footer(); ?>
+  <?php wp_footer(); ?>     <!-- wordpress Funktion zum speichern und aufrufen des footers -->
 </body>
 </html>
