@@ -56,7 +56,7 @@
     </div>
 <br>
     <div class="registerlink">
-        <a href="<?php echo site_url('/register'); ?>" onclick="document.getElementById('myform').submit()">Noch kein Kundenkonto? Hier registrieren.</a>
+        <a href="<?php echo site_url('/register'); ?>">Noch kein Kundenkonto? Hier registrieren.</a>
         <br>
         <br>
         <a href="<?php echo site_url('/info#svr'); ?>">Infos zu unserem Service.</a>
