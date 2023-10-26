@@ -54,10 +54,15 @@ h1{
 
 }
 
-h3{
-    margin-top:20px;
-    margin-left:35px;
+h2 {
+    margin-top: 20px;
+}
 
+h3{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    text-decoration: underline;
 }
 
 
@@ -686,6 +691,7 @@ nav input[type="checkbox"]{
     .card .card-description #des1{
         padding: 0 8px;
     }
+    
 
     .card{
         margin-top:100px;
