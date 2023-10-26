@@ -6,7 +6,7 @@
 <!-- Logo -->
   <nav>
   <img 
-        src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"      <!-- die Verbindung zum Ordner wird hergestellt -->
+        src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"      <!-- die Verbindung zum Ordner wird hergestellt um auf das Bild zugreifen zu können -->
         alt="Logo tveds.com"/>
       
         <!-- Navigation -->
