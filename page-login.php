@@ -6,7 +6,7 @@
     </section>
 
     <nav>
-    <!-- bild einfügen als logo-->
+    <!-- Einfügen des Logo-->
             <img 
             src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png" 
             alt="Logo tveds.com"/>
