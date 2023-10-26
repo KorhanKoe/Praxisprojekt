@@ -177,4 +177,4 @@
     </div>
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?>    <!--dasselbe wie obne beim Header gilt für den footer -->
