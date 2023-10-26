@@ -6,7 +6,7 @@
 <!-- Logo -->
   <nav>
   <img 
-        src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"
+        src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"      <!-- die Verbindung zum Ordner wird hergestellt -->
         alt="Logo tveds.com"/>
       
         <!-- Navigation -->
@@ -19,7 +19,7 @@
             </label>
                   
         <ul>
-            <li id="start"><a href="<?php echo site_url('/register'); ?>"
+            <li id="start"><a href="<?php echo site_url('/register'); ?>"    <!-- Es werden Verlinknungen ermöglicht -->
                     <?php if(is_page('register')) echo 'class="active"' ?> target="_blank" id="register"><span id="one">Start a Project</span></a></li>
             <li id="exp" class="expandable_li">
                 <input type="checkbox" id="contact_checkbox" id="check" onclick="check()">
