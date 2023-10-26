@@ -153,6 +153,7 @@
             </div>
         </section>
 
+    <!-- Section 4 -->
         <section id="sec4">
           <div class="card">
               <div class="card-image" id="cardimage4">
