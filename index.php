@@ -10,7 +10,5 @@
     alt="Logo tveds.com"/>
     </a>
 
-<h3 id=txt7>Sie haben sich erfolgreich registriert.<br>
-Sie erhalten in wenigen Minuten eine Nachricht an Ihre Mail-Adresse mit dem Passwort für den Online Zugang.
+<h3 id=txt7>Wechseln Sie <a href="<?php echo home_url(); ?>"> hier</a> zurück zur Homepage<br>
 </h3>
-
