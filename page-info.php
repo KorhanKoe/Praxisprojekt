@@ -52,8 +52,6 @@
 
 <!-- Section 2 -->
 <section id="sec2">
-
-
     <div class="card-descritpion">
         <h3 id="knt">Kontakt</h3>
       </a> 
@@ -64,11 +62,10 @@
           </div>
     </div>
 </section>
+
+
 <!-- Section 3 -->
-
-
 <section id="sec3">
-
 <div class="card-descritpion">
             <h3 id="abt">About</h3>
         </a>
@@ -82,9 +79,8 @@
 </section>
 <br>
 
-
+<!-- Section 4 -->
 <section id="sec4">
-
 <div class="card-descritpion">
             <h3 id="tm">Das Team</h3>
         </a>
@@ -98,10 +94,8 @@
 </section>
 <br>
 
-
+<!-- Section 5 -->
 <section id="sec5">
-
-
 <div class="card-descritpion">
             <h3 id="gmnsm">Gemeinsam</h3>
         </a>
@@ -116,8 +110,8 @@
 </section>
 <br>
 
+<!-- Section 6 -->
 <section id="sec6">
-
 <div class="card-descritpion">
             <h3 id="prdkt">Produkte</h3>
         </a>
@@ -131,8 +125,8 @@
 <br>
 
 
+<!-- Section 7 -->
 <section id="sec7">
-
 <div class="card-descritpion">
             <h3 id="idee">Ideen</h3>
         </a>
