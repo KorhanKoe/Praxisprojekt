@@ -54,12 +54,9 @@ h1{
 
 }
 
-h2 {
-    margin-top: 20px;
-}
 
 h3{
-    margin-top:5px;
+    margin-top:8px;
     margin-bottom:5px;
     margin-left: 5px;
     text-decoration: underline;
@@ -1081,29 +1078,64 @@ Deswegen habe ich sie da gelassen. */
 
 
 #svr{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#d1{
+    margin-bottom:10px;
+}
+#d2{
+    margin-bottom:10px;
+}
+#d3{
+    margin-bottom:10px;
+}
+#d4{
+    margin-bottom:10px;
+}
+#d5{
+    margin-bottom:10px;
+}
+#d6{
+    margin-bottom:10px;
+}
+#d7{
+    margin-bottom:10px;
 }
 
 #knt{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 #abt{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 #tm{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 #gmnsm{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 #prdkt{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 #idee{
-    font-size:36px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
