@@ -55,7 +55,7 @@
       <!-- Titel-Bild -->
       <div id="haende"> 
         <img
-        src="<?php echo get_template_directory_uri(); ?>/bildr/haende.svg"  vspace="75"  align="left"
+        src="<?php echo get_template_directory_uri(); ?>/bildr/haende.svg"  vspace="75"  align="left"    <!-- Erste Anpassungen für das Titelbild wurden hier getroffen -->
         alt="haende, schuetteln, neon"
         class="haende"
         />
