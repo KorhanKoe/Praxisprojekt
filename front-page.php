@@ -1,4 +1,4 @@
-<?php get_header(); ?>      <!-- Wordpress Funktion zum Aufrufen des Headers -->
+<?php get_header(); ?>      <!-- Wordpress Funktion zum Aufrufen des Headers, in PHP allein würde es mit <?php include "header.php";?> beschrieben werden. -->
 
 <body>
 
