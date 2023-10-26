@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="footer-col">
-          <h4>company</h4>      <!--Die classen und lis werden dann über style.css aufgerufen und designed -->
+          <h4>company</h4>      <!--Die Klassen und lis werden dann über style.css aufgerufen und designed -->
           <ul>
             <li><a href="<?php echo site_url('/info#abt'); ?>">about us</a></li>
             <li><a href="<?php echo site_url('/info#svr'); ?>">our services</a></li>
