@@ -44,7 +44,7 @@
           Der Service umfasst alles, was vermarktet werden soll. Sie können nach einer erfolgreichen Registrierung sich bei unserem Portal anmelden und dann mit einem unserer
           Mitarbeiter in Kontakt treten. Nach einer kurzen Absprache ist dieser dann in der Lage, Ihnen einen Preisvorschlag für die gewünschten Änderungen oder aber die neu gestaltung
           Ihrer Webseite zu geben. Mit zahlreichen Kunden auf der ganzen Welt sind wir ein vertrauenswürdiges Unternehmen, das vor allem auf ein beeindruckendes Ergebnis setzt.
-          Sei es ein einfaches, schlichtes aber eindrucksvolles Design oder aber auch etwas aussergewöhnliches, extravagantes, wir haben für jeden Geschmack was dabei.
+          Sei es ein einfaches, schlichtes aber eindrucksvolles Design oder aber auch etwas aussergewöhnliches, extravagantes, wir haben für jeden Geschmack was dabei. Registrieren Sie sich jetzt unter <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b> 
 
         </p>
     </div>
@@ -76,7 +76,7 @@
         <p>
             Gegründet im Jahr 2023 ist unser Unternehmen darauf spezialisiert, Ihr Unternehmen zu verbessern. Wir sind ein Anbieter für digitale Dienstleistungen und setzen auf gute Qualität und eindrucksvolles
             Design. Wir stehen in stetigem Dialog mit unseren Kunden und gehen auf jeden Wunsch ein, der uns vorgestellt wird. Gerne beraten wir Sie bezüglich Ihrer Idee
-            und stellen Ihnen unsere Langjährige Erfahrung und unsere Kompetenz zur Verfügung.
+            und stellen Ihnen unsere Erfahrung im Bereich Webdesign und unsere Kompetenzen zur Verfügung.
         </p>
     </div>
     </div>
@@ -91,7 +91,7 @@
         </a>
         <p>
             Unser Team besteht aus zahlreichen Entwicklern, die alle in stetigem Kontakt zueinander stehen und sich gegenseitig Unterstützen.
-            Unser unternehmen baut auf Gemeinsamkeit auf und ist nicht geleitet von einigen wenige Einzelgängern. Durch ständiges Austauschen und einen 
+            Unser Unternehmen baut auf Gemeinsamkeit auf und ist nicht geleitet von einigen wenige Einzelgängern. Durch ständiges Austauschen und einen 
             freundlichen Umgang haben wir eine besondere Team-Chemie hergestellt, die es uns erlaubt, jeden Kundenwunsch optimal zu erfüllen.
         </p>
     </div>
@@ -108,7 +108,7 @@
         </a>
         <p>
             Gemeinsam mit unseren Kunden schaffen wir es, ein Produkt auf den Markt zu bringen, das seines gleichen noch nicht kennt. Durch stetige Kommunikation und
-            das hinterfragen jeglicher Ideen mit professionellen Vorschlägen zur Umsetzung schaffen wir es, die Pläne so umzusetzen, wie Sie sie sich vorgestellt haben.
+            das hinterfragen jeglicher Ideen mit professionellen Vorschlägen zur Umsetzung schaffen wir es, die Pläne so umzusetzen, wie Sie es sich vorgestellt haben.
             Gerne beraten wir Sie nach einer Erfolgreichen Registrierung über das weitere Vorgehen.
             Hier <a href="<?php echo site_url('/register'); ?>"> <b>registrieren</b>  </a>
         </p>
