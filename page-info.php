@@ -1,181 +1,156 @@
-<?php get_header(); ?>      <!-- Wordpress Funktion, in PHP wäre das mit <?phpinclude "header.php";?>  möglich-->
+ <?php get_header(); ?>  <!--sucht nach einer Datei mit dem Namen header.php -->
 
 <body>
+    <nav>
+            <img 
+            src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"      
+            alt="Logo tveds.com"/>
+        </a>   
 
 
-<!-- Logo -->
-  <nav>
-  <img 
-        src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png"    <!-- Zugriff auf den Ordner mit dem Logo -->
-        alt="Logo tveds.com"/>
-      
-        <!-- Navigation -->
-
-        <input type="checkbox" id="toggle_button">      
-            <label for="toggle_button" class="toggle_button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </label>
-                  
-        <ul>
-            <li id="start"><a href="<?php echo site_url('/register'); ?>"  <!-- ermöglichen der Verlinkungen -->
-                    <?php if(is_page('register')) echo 'class="active"' ?> target="_blank" id="register"><span id="one">Start a Project</span></a></li>
-            <li id="exp" class="expandable_li">
-                <input type="checkbox" id="contact_checkbox" id="check" onclick="check()">
-                <label for="contact_checkbox" id="cont"><span id="one">Menu  </span><i class="fa fa-bars"></i></label>
-                <ul class="dropdown" id="drop">
-                <li id="service"><a href="<?php echo site_url('/info#svr'); ?>"
-                    target="_parent" id="service">Services</a></li>
-                <li id="about"><a href="<?php echo site_url('/info#abt'); ?>" 
-                     target="_parent" id="about">About</a></li>
-                <li id="contact"><a href="<?php echo site_url('/info#knt'); ?>" 
-                     target="_parent" id="contact">Contact</a></li>
-            <li><a href="<?php echo site_url('/login'); ?>" 
-                   target="_blank" id="login">Login</a></li>
-        </li>
-        </ul>
-    </nav>
-
+<div id="dropdown">
+</div>
+<ul>
+    <!--echo site_url ist für Verlinkungen auf andere Seiten gedacht -->
+    <li><a href="<?php echo site_url('/register'); ?>" id="start2"><span>Start a Project</span></a></li>
+    <li><a href="<?php echo site_url('/login'); ?>" 
+    <?php if(is_page('index')) echo 'class="active"' ?> target="_blank" id="login2"><span>Login</span></a></li>
+</ul>
+</nav>
 <main>
-    <!-- Der Banner auf der Titelseite -->
-    <div class="banner" id="banner">
-        <div class="banner-text" id="banner-text">
-            <h2>Wir helfen Ihnen!</h2> 
-            <div class="text-wrapper">
-                <div class="box b1">Branding</div>
-                <div class="box b2">Product</div>
-                <div class="box b3">Apps</div>
-                <div class="box b4">Services</div>
-                <div class="box b5">Ideas</div>
-            </div>
-          </div>
-      </div>
 
-      <!-- Titel-Bild -->
-      <div id="haende"> 
-        <img
-        src="<?php echo get_template_directory_uri(); ?>/bildr/haende.svg"  vspace="75"  align="left"
-        alt="haende, schuetteln, neon"
-        class="haende"
-        />
-      </div>
-    
-      <!-- Titel-Text -->
-        <br>
-        <a href="<?php echo site_url('/info'); ?>">
-        <h2 class="section-heading" id="one">All Services</h2>
-      </a>
-        <h2 class="section-heading3" id="two">tveds.com</h2>
-      </a>
-      <!-- Text Eins -->
-      <div class="text-eins" id="texteins">
-            <h6 class="section-heading2"><br>
-                Unser Unternhemen für Ihre Zukunft!
-                Lassen Sie sich ein auf eine spannende Reise mit unserer Agentur für die Beihilfe bei der Webentwicklung und weiteren IT-Bezogenen Themen.
-                Wir begleiten Sie gerne auf Ihrem Weg zur Informativen-Unabhängigkeit im Bereich World Wide Web.<br>
-</h6>
-        </div>
-        <br>
 
-        <!-- Section 1 -->
-        <div class="all">
-        <section id="sec1">
-            <div class="card">
-                <div class="card-image" id="cardimage1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/bildr/group1.jpg" 
-                        id="group1"
-                        alt="Card-Image1"
-                        />
-                    </a>  
-                  </div>
-          
 
-            <div class="card-descritpion" id="des1">
-            <a href="<?php echo site_url('/info#tm'); ?>">
-                  <h2>Das Team</h2>
-                </a>
-                <p>
-                  Unser Team bestehend aus gut asugebildeten Experten hilft Ihnen dabei, Ihren Traum der Internet-Präsenz zu verwirklichen. 
-                  Mit unserem guten können und jahrelanger Erfahrung bietne wir Ihrem Unternehmen das Know-How an, das Sie an die Spitze treibt.
-     
-                  <a href="<?php echo site_url('/info#tm'); ?>" class="btn-readmore">Read more...</a>
+<a href="<?php echo home_url(); ?>">
+<br>
+<h2 class="section-heading5" id="three">tveds.com</h2>
+</a>
+<!-- Text Eins -->
 
-                </p>
-            </div>
-        </div>
-        </section>
 
-        <!-- Section 2 -->
-        <section id="sec2">
+<div class="text-eins" id="texteins">
 
-            <div class="card">
-                <div class="card-image" id="cardimage2">
-                      <img src="<?php echo get_template_directory_uri(); ?>/bildr/work2.jpg" 
-                      alt="Card-Image2"
-                      /> 
-          
-                    </a>
-                
-                </div>
+</div>
+<br>
 
-            <div class="card-descritpion">
-            <a href="<?php echo site_url('/info#gmnsm'); ?>">
-                <h2>Gemeinsam</h2>
-              </a> 
-                    <p>
-                      Gemeinsam schaffen wir den Grundstein für eine unangefochtene Internet-Präsenz Ihres Unternehmens.
-                      Unsere Branding Abteilung verschafft Ihnen die Vorteile, die andere nicht haben.
-                    </p>
-                    <a href="<?php echo site_url('/info#gmnsm'); ?>" class="btn-readmore">Read more...</a>
-                  </p>
-                  </div>
-            </div>
-
-        </section>
-        <!-- Section 3 -->
-        <section id="sec3">
-            <div class="card">
-                <div class="card-image" id="cardimage3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/bildr/domor.jpg"
-                        alt="Card-image3">
-                    </a>
-                </div>
-
-            <div class="card-descritpion">
-                <a href="<?php echo site_url('/info#prdkt'); ?>">
-                    <h2>Produkte</h2>
-                </a>
-                <p>
-                    Ihre Produkte könnten ein neues Image vertragen? Da sind wir genau die richtigen Ansprechpartner für Ihr Problem! Mit der jugendhaften Frische unseres Unternehmens bieten wir Ihnen die Möglichkeit, erneut in das Auge Ihrer Kunden zu springen und Eindruck zu hinterlassen.
-                    <a href="<?php echo site_url('/info#prdkt'); ?>" class="btn-readmore">Read more...</a>
-                </p>
-            </div>
-            </div>
-        </section>
-
-        <section id="sec4">
-          <div class="card">
-              <div class="card-image" id="cardimage4">
-                      <img src="<?php echo get_template_directory_uri(); ?>/bildr/kugel.jpg"
-                      alt="Card-image4">
-                  </a>
-              </div>
-
-          <div class="card-descritpion">
-          <a href="<?php echo site_url('/info#idee'); ?>">
-                  <h2>Ideen</h2>
-              </a>
-              <p>
-               Bringen wir die Sache ins Rollen! Die Ideen, die für Ihr Internet-Empire benötigt werden, warten bei uns nur darauf, verwendet zu werden. Worauf warten Sie?
-                  <a href="<?php echo site_url('/info#idee'); ?>" class="btn-readmore">Read more...</a>
-</p>   
-          </div>
-          </div>
-      </section>
-      <br>
-      </section>
+<!-- Section 1 -->
+<section id="all">
+<section id="sec1">
+    <div class="card-descritpion" id="des1">
+          <h3 id="svr">Service</h3>
+        </a>
+        <p id="d1">
+          Unser Service umfasst das erstellen oder verbessern Ihrer Marke im Internet. Wir haben uns darauf fokussiert, Produkte weiter zu entwicklen und auszubessern.
+          Der Service umfasst alles, was vermarktet werden soll. Sie können nach einer erfolgreichen Registrierung sich bei unserem Portal anmelden und dann mit einem unserer
+          Mitarbeiter in Kontakt treten. Nach einer kurzen Absprache ist dieser dann in der Lage, Ihnen einen Preisvorschlag für die gewünschten Änderungen oder aber die neu gestaltung
+          Ihrer Webseite zu geben. Mit zahlreichen Kunden auf der ganzen Welt sind wir ein vertrauenswürdiges Unternehmen, das vor allem auf ein beeindruckendes Ergebnis setzt.
+          Sei es ein einfaches, schlichtes aber eindrucksvolles Design oder aber auch etwas aussergewöhnliches, extravagantes, wir haben für jeden Geschmack was dabei. Registrieren Sie sich jetzt unter <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b></a> 
+        </p>
     </div>
+</div>
+</section>
+
+<!-- Section 2 -->
+<section id="sec2">
+
+
+    <div class="card-descritpion">
+        <h3 id="knt">Kontakt</h3>
+      </a> 
+            <p id="d2">
+              Gerne treten wir mit Ihnen in Kontakt. Gehen sie dazu nur auf den folgenden Link <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project</b> </a>
+              und registrieren sich bei uns. Gerne können sie uns auch per E-Mail Kontaktieren unter: <b>kundendialog@tveds.com.</b></a>
+              </p>
+          </div>
+    </div>
+</section>
+<!-- Section 3 -->
+
+
+<section id="sec3">
+
+<div class="card-descritpion">
+            <h3 id="abt">About</h3>
+        </a>
+        <p id="d3">
+            Gegründet im Jahr 2023 ist unser Unternehmen darauf spezialisiert, Ihr Unternehmen zu verbessern. Wir sind ein Anbieter für digitale Dienstleistungen und setzen auf gute Qualität und eindrucksvolles
+            Design. Wir stehen in stetigem Dialog mit unseren Kunden und gehen auf jeden Wunsch ein, der uns vorgestellt wird. Gerne beraten wir Sie bezüglich Ihrer Idee
+            und stellen Ihnen unsere Erfahrung im Bereich Webdesign und unsere Kompetenzen zur Verfügung.
+        </p>
+    </div>
+    </div>
+</section>
+<br>
+
+
+<section id="sec4">
+
+<div class="card-descritpion">
+            <h3 id="tm">Das Team</h3>
+        </a>
+        <p id="d4">
+            Unser Team besteht aus zahlreichen Entwicklern, die alle in stetigem Kontakt zueinander stehen und sich gegenseitig Unterstützen.
+            Unser Unternehmen baut auf Gemeinsamkeit auf und ist nicht geleitet von einigen wenige Einzelgängern. Durch ständiges Austauschen und einen 
+            freundlichen Umgang haben wir eine besondere Team-Chemie hergestellt, die es uns erlaubt, jeden Kundenwunsch optimal zu erfüllen.
+        </p>
+    </div>
+    </div>
+</section>
+<br>
+
+
+<section id="sec5">
+
+
+<div class="card-descritpion">
+            <h3 id="gmnsm">Gemeinsam</h3>
+        </a>
+        <p id="d5">
+            Gemeinsam mit unseren Kunden schaffen wir es, ein Produkt auf den Markt zu bringen, das seines gleichen noch nicht kennt. Durch stetige Kommunikation und
+            das hinterfragen jeglicher Ideen mit professionellen Vorschlägen zur Umsetzung schaffen wir es, die Pläne so umzusetzen, wie Sie es sich vorgestellt haben.
+            Gerne beraten wir Sie nach einer Erfolgreichen Registrierung über das weitere Vorgehen.
+            Hier <a href="<?php echo site_url('/register'); ?>"> <b>registrieren</b>  </a>
+        </p>
+    </div>
+    </div>
+</section>
+<br>
+
+<section id="sec6">
+
+<div class="card-descritpion">
+            <h3 id="prdkt">Produkte</h3>
+        </a>
+        <p id="d6">
+            Wir haben so einige Webseiten bereits gestaltet und sehr viele sehr Zufriedene Kunden gewonnen. Über den folgenden Link können sie
+            einige unserer stolzesten Kunden sehen und Ihre Webseiten betrachten: <a href="#"><b> Link</b> </a>
+        </p>
+    </div>
+    </div>
+</section>
+<br>
+
+
+<section id="sec7">
+
+<div class="card-descritpion">
+            <h3 id="idee">Ideen</h3>
+        </a>
+        <p id="d7">
+       Sie möchten Ihr Produkt verbessern? Sie wollen aus der großen Masse herausstechen? Kein Problem!
+            Über <b>Kundendialog@tveds.com</b> können Sie einen unserer freundlichen Mitarbeiter vorab kennenlernen, oder aber Sie 
+            registrieren sich direkt über <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b> </a>
+        </p>
+    </div>
+    </div>
+</section>
+<br>
+
+<br>
 </main>
 
-<?php get_footer(); ?>    <!-- Wie beim Header eine Wordpress-Funktion. Auch hier wäre es in PHP mit include zu gestalten -->
+  
+  </body>
+  </html>
+
+  <?php get_footer(); ?>
