@@ -1,5 +1,5 @@
 <?php
-// adding the CSS and JS files
+// CSS und JavaScript-Dateien werden hinzugefügt, nur habe ich JavaScript im Endeffekt doch nicht verwendet.
 //Versionnummer muss bei jeder Änderung actualisiert werden, es kann stattdessen microtime() während der Entwicklung genutzt werden, was die Versions-Nummer bei jedem Aufruf ändert.
 function tv_setup() {
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime()); //1. parameter ist der Name der Datei 2. parameter zum übernehmen des Stylesheets, 3. Die Dependencies, 4. Version Nummer
