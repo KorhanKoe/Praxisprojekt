@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <body>
+<!-- Für den oberen Balken -->
     <section id="top2">
         
     </section>
@@ -55,6 +56,7 @@
         </form>
     </div>
 <br>
+<!--Die zusätzlichen Verlinkungen auf der Login-Seite -->
     <div class="registerlink">
         <a href="<?php echo site_url('/register'); ?>">Noch kein Kundenkonto? Hier registrieren.</a>
         <br>
@@ -62,6 +64,7 @@
         <a href="<?php echo site_url('/info#svr'); ?>">Infos zu unserem Service.</a>
     </section>    
 
+<!--Für den unteren Balken -->
     <section id="border">
         
     </section>
