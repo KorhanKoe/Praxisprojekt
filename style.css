@@ -302,7 +302,7 @@ nav input[type="checkbox"]{
 }
 
 
-/* Handy-Ansicht */
+/* Mini-Ansicht */
 @media(max-width: 470px){
     .toggle_button{
         display: flex;
@@ -1457,9 +1457,7 @@ Deswegen habe ich sie da gelassen. */
     
 /* --------------------------------------------------------------------------------- */
 
-/* register-Seite */
-
-
+/* Register-Seite */
 
 #br{
     margin-top:10%;
