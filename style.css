@@ -2,7 +2,7 @@
 Author: Hasan Korhan Köroglu
 Author URI: https://tveds.com
 Description: Official theme for tveds
-Version: 1.6 */
+Version: 1.7 */
 
 /* Feste Variablen */
 :root{
@@ -29,8 +29,7 @@ html{
 
 body{                               
    height: 100%;
-   margin:0;
-   margin-right:20px;
+   margin-left:10px;
    text-align: left;
    align-items: center;
 }
@@ -78,7 +77,7 @@ p{
     line-height: 1.5;
     margin-left:35px;
 
-}
+}S
 
 
 main{
@@ -302,7 +301,7 @@ nav input[type="checkbox"]{
 }
 
 
-/* Mini-Ansicht */
+/* Handy-Ansicht */
 @media(max-width: 470px){
     .toggle_button{
         display: flex;
@@ -1457,7 +1456,9 @@ Deswegen habe ich sie da gelassen. */
     
 /* --------------------------------------------------------------------------------- */
 
-/* Register-Seite */
+/* register-Seite */
+
+
 
 #br{
     margin-top:10%;
