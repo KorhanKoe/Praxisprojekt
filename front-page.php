@@ -1,4 +1,5 @@
-<?php get_header(); ?>      <!-- Wordpress Funktion zum Aufrufen des Headers, in PHP allein würde es mit <?php include "header.php";?> beschrieben werden. -->
+<!--WordPress-Funktion zum aufrufen des Headers--!>
+<?php get_header(); ?>     
 
 <body>
 
@@ -107,15 +108,12 @@
 
         <!-- Section 2 -->
         <section id="sec2">
-
             <div class="card">
                 <div class="card-image" id="cardimage2">
                       <img src="<?php echo get_template_directory_uri(); ?>/bildr/work2.jpg" 
                       alt="Card-Image2"
                       /> 
-          
                     </a>
-                
                 </div>
 
             <div class="card-descritpion">
@@ -128,10 +126,10 @@
                     </p>
                     <a href="<?php echo site_url('/info#gmnsm'); ?>" class="btn-readmore">Read more...</a>
                   </p>
-                  </div>
+                </div>
             </div>
-
         </section>
+          
         <!-- Section 3 -->
         <section id="sec3">
             <div class="card">
@@ -140,7 +138,6 @@
                         alt="Card-image3">
                     </a>
                 </div>
-
             <div class="card-descritpion">
                 <a href="<?php echo site_url('/info#prdkt'); ?>">
                     <h2>Produkte</h2>
@@ -168,14 +165,12 @@
               </a>
               <p>
                Bringen wir die Sache ins Rollen! Die Ideen, die für Ihr Internet-Empire benötigt werden, warten bei uns nur darauf, verwendet zu werden. Worauf warten Sie?
-                  <a href="<?php echo site_url('/info#idee'); ?>" class="btn-readmore">Read more...</a>
-</p>   
+                  <a href="<?php echo site_url('/info#idee'); ?>" class="btn-readmore">Read more...</a></p>   
           </div>
           </div>
       </section>
-      <br>
       </section>
     </div>
 </main>
 
-<?php get_footer(); ?>    <!--dasselbe wie obne beim Header gilt für den footer -->
+<?php get_footer(); ?>    <!--Wordpress-Funktion zum aufrufen des Footers -->
