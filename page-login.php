@@ -4,17 +4,14 @@
 <body>
 <!-- Für den oberen Balken -->
     <section id="top2">
-        
     </section>
 
     <nav>
-    <!-- Einfügen des Logo-->
+    <!-- Einfügen des Logos-->
             <img 
             src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png" 
-            alt="Logo tveds.com"/>
-        </a>   
-      
-</nav>
+            alt="Logo tveds.com"/>     
+    </nav>
 
 <!-- Das Erstellen der Login Seite. -->
 <div class="headertxt2">
@@ -25,15 +22,14 @@
 </div>
 
 
-<div id="pic">
+    <div id="pic">
     <img
     src="<?php echo get_template_directory_uri(); ?>/bildr/Glühbirne.jpg"
     alt="glühbirne, hand"
     class="birne"
     />
-</div>
+    </div>
 
-<br>
     <div class="wrapper2">
         <form action="">
         <form id="myform" action="login.php" methode="get">
@@ -41,22 +37,17 @@
     <div class="inputbox1">
         <input type="text" placeholder="E-Mail" id="ip5">    
         <id="myform" action="login.php" methode="get">
-    </id>
     </div>
+            
     <div class="inputbox2" >
         <input id="ip6" type="password" id="password" name="password" placeholder="Passwort" >
         <id="myform" action="login.php" methode="get">
     </div>
 
     <section id="btn">
-
     <button type="submit" class="btn4">Anmelden</button>
     <button type="submit"  class="btn5"><a href="<?php echo home_url(); ?>" id="abbr">Abbrechen</button></a>
-    
-    </form>
-        </form>
-    </div>
-<br>
+
 <!--Die zusätzlichen Verlinkungen auf der Login-Seite -->
     <div class="registerlink">
         <a href="<?php echo site_url('/register'); ?>">Noch kein Kundenkonto? Hier registrieren.</a>
@@ -64,13 +55,9 @@
         <br>
         <a href="<?php echo site_url('/info#svr'); ?>">Infos zu unserem Service.</a>
     </section>    
-
-<!--Für den unteren Balken -->
-    <section id="border">
-        
-    </section>
     </div>
-
-    </form>
+<!--Für den unteren Balken -->
+    <section id="border"></section>
+        
 </body>
 </html>
