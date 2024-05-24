@@ -8,9 +8,9 @@
             alt="Logo tveds.com"/>
         </a>   
 
-
 <div id="dropdown">
 </div>
+
 <ul>
     <!--echo site_url ist für Verlinkungen auf andere Seiten gedacht -->
     <li><a href="<?php echo site_url('/register'); ?>" id="start2"><span>Start a Project</span></a></li>
@@ -18,21 +18,10 @@
     <?php if(is_page('index')) echo 'class="active"' ?> target="_blank" id="login2"><span>Login</span></a></li>
 </ul>
 </nav>
+
 <main>
-
-
-
-<a href="<?php echo home_url(); ?>">
-<br>
-<h2 class="section-heading5" id="three">tveds.com</h2>
-</a>
-<!-- Text Eins -->
-
-
-<div class="text-eins" id="texteins">
-
-</div>
-<br>
+    <a href="<?php echo home_url(); ?>"></a>
+    <h2 class="section-heading5" id="three">tveds.com</h2>
 
 <!-- Section 1 -->
 <section id="all">
@@ -48,7 +37,6 @@
           Sei es ein einfaches, schlichtes aber eindrucksvolles Design oder aber auch etwas aussergewöhnliches, extravagantes, wir haben für jeden Geschmack was dabei. Registrieren Sie sich jetzt unter <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b></a> 
         </p>
     </div>
-</div>
 </section>
 
 <!-- Section 2 -->
@@ -60,8 +48,7 @@
               Gerne treten wir mit Ihnen in Kontakt. Gehen sie dazu nur auf den folgenden Link <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project</b> </a>
               und registrieren sich bei uns. Gerne können sie uns auch per E-Mail Kontaktieren unter: <b>kundendialog@tveds.com.</b></a>
               </p>
-          </div>
-    </div>
+     </div>
 </section>
 
 
@@ -76,9 +63,8 @@
             und stellen Ihnen unsere Erfahrung im Bereich Webdesign und unsere Kompetenzen zur Verfügung.
         </p>
     </div>
-    </div>
 </section>
-<br>
+
 
 <!-- Section 4 -->
 <section id="sec4">
@@ -91,9 +77,8 @@
             freundlichen Umgang haben wir eine besondere Team-Chemie hergestellt, die es uns erlaubt, jeden Kundenwunsch optimal zu erfüllen.
         </p>
     </div>
-    </div>
 </section>
-<br>
+
 
 <!-- Section 5 -->
 <section id="sec5">
@@ -109,7 +94,7 @@
     </div>
     </div>
 </section>
-<br>
+
 
 <!-- Section 6 -->
 <section id="sec6">
@@ -120,7 +105,6 @@
             Wir haben so einige Webseiten bereits gestaltet und sehr viele sehr Zufriedene Kunden gewonnen. Über den folgenden Link können sie
             einige unserer stolzesten Kunden sehen und Ihre Webseiten betrachten: <a href="#"><b> Link</b> </a>
         </p>
-    </div>
     </div>
 </section>
 <br>
@@ -137,15 +121,10 @@
             registrieren sich direkt über <a href="<?php echo site_url('/register'); ?>"> <b>Start-a-Project.</b> </a>
         </p>
     </div>
-    </div>
 </section>
-<br>
 
-<br>
 </main>
+</body>
+</html>
 
-  
-  </body>
-  </html>
-
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
