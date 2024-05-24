@@ -1,4 +1,6 @@
-<?php get_header(); ?>          <!-- Ruft den Header auf, ist eine WordPress spezifische Funktion -->
+<!--Registrierungs-Seite--!>
+
+<?php get_header(); ?>        
 
 <body>
 
