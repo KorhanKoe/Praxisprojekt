@@ -3,10 +3,7 @@
 <?php get_header(); ?>        
 
 <body>
-
-    
-    <section id="top"></section>
-
+<section id="top"></section>
 <!-- Das Erstellend der Register Seite -->
     <nav>
         <div class="logo2">
