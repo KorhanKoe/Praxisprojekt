@@ -9,7 +9,7 @@ function tv_setup() {
 
 }
 
-add_action('wp_enqueue_scripts', 'tv_setup');       //Hier wird festgelegt, wann die Funktion ausgeführt werden soll und wie die Funktion heißt
+add_action('wp_enqueue_scripts', 'tv_setup');       //Hier wird festgelegt, wann die Funktion ausgeführt werden soll und wie sie heißt
 
 //Hier wird die Verbindung zu der Datenbank hergestellt
 if(isset($_POST['submitbtn'])) {        //checked den submit button
@@ -20,7 +20,7 @@ if(isset($_POST['submitbtn'])) {        //checked den submit button
         'info' => $_POST['info'],
     );
 
-    $table_name ='kundentv';           //ziel Tabell in der Datenbank, die die Daten bekommt
+    $table_name ='kundentv';           //Ziel-Tabelle in der Datenbank, die die Daten erhält
 
     $result = $wpdb->insert($table_name, $data, $format=NULL);
 
