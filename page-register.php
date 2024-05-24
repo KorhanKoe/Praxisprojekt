@@ -1,28 +1,25 @@
-<!--Registrierungs-Seite--!>
+<!--Registrierungs-Seite für WordPress--!>
 
 <?php get_header(); ?>        
 
 <body>
 
     
-    <section id="top">
-
-    </section>
+    <section id="top"></section>
 
 <!-- Das Erstellend der Register Seite -->
     <nav>
         <div class="logo2">
-        <a href="index.html">           <!-- bild einfügen als logo-->
+        <a href="index.html">         
             <img 
             src="<?php echo get_template_directory_uri(); ?>/bildr/tveds.png" 
-            alt="Logo tveds.com"/>
-        </a>   
+            alt="Logo tveds.com"/></a>
       </div>
 </nav>
 
 <section id="btn2">
     <button type="submit" class="btn2"><a href="<?php echo home_url(); ?>" id="hrf1">Back  <i class="fa-solid fa-arrow-left"></i></button></a>
-    </section>
+</section>
 
     
     <div class="headertxt">
@@ -65,13 +62,10 @@
     <section id="btn3">
     <button type="submit" name="submitbtn" class="btn3">Send <i class="fa-solid fa-arrow-right"></i></button></a>
 </section>
-    </form>
+</form>
     </div>
 
-    <section id="bot">
-
-    </section>
-
+    <section id="bot"></section>
 
 </body>
 </html>
