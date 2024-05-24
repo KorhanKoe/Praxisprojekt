@@ -1,8 +1,10 @@
-<footer class="footer">   <!-- Erstellen einer Footer Klasse mit dem Inhalt des Footers -->
+<!-- Footer-Sektion: Erstellen einer Footer-Klasse mit dem Inhalt des Footers -->
+<footer class="footer"> 
     <div class="container">
       <div class="row">
+        <!-- Company-Sektion: Informationen über das Unternehmen -->
         <div class="footer-col">
-          <h4>company</h4>      <!--Die Klassen und lis werden dann über style.css aufgerufen und designed -->
+          <h4>company</h4>      
           <ul>
             <li><a href="<?php echo site_url('/info#abt'); ?>">about us</a></li>
             <li><a href="<?php echo site_url('/info#svr'); ?>">our services</a></li>
@@ -10,9 +12,9 @@
             <li><a href="#">affiliate program</a></li>
           </ul>     
         </div>
+        <!-- Get Help-Sektion: Unterstützungsinformationen und Links -->
         <div class="footer-col">
           <h4>get help</h4>
-        <!-- Nicht alle Verlinkungen wurden gestellt, da einige Seiten noch nicht erstellt wurden, wie zum Beispiel Reviews oder FAQ
           <ul>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Reviews</a></li>
