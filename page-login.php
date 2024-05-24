@@ -1,3 +1,4 @@
+<!--Login-Seite für WordPress--!>
 <?php get_header(); ?>
 
 <body>
