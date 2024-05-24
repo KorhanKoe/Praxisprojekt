@@ -1,4 +1,5 @@
- <?php get_header(); ?>  <!--sucht nach einer Datei mit dem Namen header.php -->
+<!-- Info-Seite --!>
+<?php get_header(); ?>  
 
 <body>
     <nav>
