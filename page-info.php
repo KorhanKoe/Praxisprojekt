@@ -1,4 +1,4 @@
-<!-- Info-Seite --!>
+<!-- Info-Seite für WordPress--!>
 <?php get_header(); ?>  
 
 <body>
